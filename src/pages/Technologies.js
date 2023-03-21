@@ -53,7 +53,7 @@ render(){
       <img src="/images/logos/flask.webp" alt="Flask" class="block object-contain p-[5px] h-[5rem] drop-shadow-xl" />
     </div>
     <div class="flex items-center justify-center rounded-lg drop-shadow-xl shadow transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 bg-white">
-      <img src="/images/logos/React.png" alt="React" class="block object-contain p-[5px] h-[5rem] drop-shadow-xl" />
+      <img src="/images/logos/react.png" alt="React" class="block object-contain p-[5px] h-[5rem] drop-shadow-xl" />
       {/* <div className="divider divider-vertical h-32">and</div> */}
       {/* <img src="images/logos/nodejs.png" alt="NodeJS" class="block object-contain p-[5px] h-[4rem]" /> */}
     </div>
