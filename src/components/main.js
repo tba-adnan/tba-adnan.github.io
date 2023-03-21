@@ -10,9 +10,9 @@ render() {
 
     return (
         
-<div class="hero-section pt-8 lg:pt-8 sm:pt-32">
-<section class="bg-white dark:bg-gray-900">
-    <div class="grid max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+<div class="hero-section  pt-8 lg:pt-8 sm:pt-32">
+<section class="bg-white dark:bg-gray-900 pb-2">
+    <div class="grid max-w-screen-xl px-4 py-12 pb-2 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-1xl mb-4 text-3xl font-sans tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">👋 Hi, i'm Adnane! </h1>
             <p class="max-w-2xl mb-7 font-light text-gray-500 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400 font-sans ">

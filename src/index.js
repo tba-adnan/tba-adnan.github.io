@@ -2,26 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './index.css';
-import Header from './pages/header';
-import Footer from './pages/footer';
-import Main from './pages/main';
-import Maintwo from './pages/main_two';
-import Technologies from './pages/Technologies';
-import About from './pages/About';
+import Header from './components/header';
+import Footer from './components/footer';
+import Main from './components/main';
+import Maintwo from './components/main_two';
+import Technologies from './components/Technologies';
+import About from './components/About';
+
 import reportWebVitals from './reportWebVitals';
 
 
-export default function Router() {
-    return (
-  <div></div>
-    );
-  }
-
-
-
-
-const router = ReactDOM.createRoot(document.getElementById("router"));
-router.render(<Router/>)
 
 const navbar = ReactDOM.createRoot(document.getElementById("header"));
 navbar.render(<Header/>)
@@ -38,5 +28,14 @@ main_two.render(<Maintwo/>)
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(<Footer/>)
 
-
 reportWebVitals();
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Routes>
+      {/* <Route exact path="/" element={<Main />} /> */}
+      <Route path="about" element={<About />} />
+    </Routes>
+  </BrowserRouter>,
+  document.getElementById('root')
+);

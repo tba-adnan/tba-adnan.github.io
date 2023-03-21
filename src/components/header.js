@@ -32,12 +32,16 @@ return (
           <a href="#" class="text-2xl block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-sans">Contact</a>
         </li>
         <li><p class="text-2xl">·</p></li>
+        <div className="flex space-x-2">
         <li class="flex">
-          <a href="#" class="text-2xl block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-sans">Newsletter - </a>
-          <a class="mx-2 px-4 pt-[7px] text-[20px] font-sans shadow drop-shadow-md  bg-yellow-200 rounded-lg">Soon</a>
-          
-          
+          <a href="#" class="text-2xl block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-sans">Newsletter</a>
         </li>
+        <li>
+        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded text-yellow-600 bg-yellow-200 uppercase last:mr-0 mr-1">
+        soon
+       </span>
+        </li>
+        </div>
       </ul>
     </div>
   
