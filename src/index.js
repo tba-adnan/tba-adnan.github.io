@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+// import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './index.css';
+import App from './App';
 import Header from './components/header';
 import Footer from './components/footer';
 import Main from './components/main';
 import Maintwo from './components/main_two';
 import Technologies from './components/Technologies';
 import About from './components/About';
-
 import reportWebVitals from './reportWebVitals';
 
 
@@ -28,14 +28,7 @@ main_two.render(<Maintwo/>)
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 footer.render(<Footer/>)
 
-reportWebVitals();
+const pages = ReactDOM.createRoot(document.getElementById("pages"));
+pages.render(<App/>)
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-      {/* <Route exact path="/" element={<Main />} /> */}
-      <Route path="about" element={<About />} />
-    </Routes>
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+reportWebVitals();

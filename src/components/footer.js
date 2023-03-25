@@ -3,8 +3,6 @@ import React from "react";
 export default class Footer extends React.Component {
     constructor() {
         super();
-
-        console.log("it works!")
     }
 
   
