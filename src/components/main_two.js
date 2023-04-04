@@ -11,12 +11,12 @@ render() {
     return(
         <div>
 
-<div class= "pt-[1px] bg-white dark:bg-gray-900 shadow-inner">
+<div class= "pt-[1px] bg-white dark:bg-gray-900 ">
 <section class="px-4 py-12 mx-auto max-w-7xl">
 <div class="md:items-start items-center flex w-full mb-4 flex-col ">
   <h1 class="text-5xl font-medium leading-none title-font dark:text-gray-200 text-gray-900 font-sans">
         Projects : 
-  </h1><span class="mt-1 mb-4 w-12 h-1 bg-blue-700"></span>
+  </h1><span class="mt-1 mb-4 w-[65px] h-1 bg-blue-700"></span>
 </div> 
 {/*  */}
 <div className="divider"></div>

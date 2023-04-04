@@ -14,12 +14,11 @@ render(){
 
 <div class="bg-gray-50 pt-[1px] shadow-inner">
   
-<div></div>
-<section class="px-4 py-12 mx-auto max-w-7xl">
+<section class="px-4 py-12 mx-auto max-w-7xl text-gray-600 border-b dark:border-gray-700 bg-gray-50 dark:bg-dark">
 <div class="md:items-start items-center flex w-full mb-4 flex-col ">
   <h1 class="text-4xl font-medium leading-none title-font dark:text-gray-200 text-gray-900 font-sans">
         Tech Stack & Skills : 
-        </h1><span class="mt-1 mb-4 w-24 h-1 bg-blue-700"></span>
+        </h1><span class="mt-1 mb-4 w-[83px] h-1 bg-blue-700"></span>
         </div> 
 
   <div class="grid grid-cols-3 gap-6  text-center lg:grid-cols-6">
