@@ -19,7 +19,7 @@ const About = () => {
       <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween font-sans">
         <div class="flex-1">
           <p class="leading-7 font-sans">
-            I'm Adnane Tebbaa, 20 years old, Full Stack Web Developer and Android Developer with a strong background in Python, Javascript, PHP and Kotlin.
+          I'm Adnane Tebbaa, 20 years old, Full Stack Web Developer and Android Developer with experience in Python, Javascript, PHP and Kotlin and a strong Background in Cyber Security.
             <br class="block mt-2.5" />
             As a full-stack developer with a strong background in cyber security, I have a unique combination of technical and security expertise that enables me to develop highly robust and secure applications. I'm always exploring new technologies and programming languages to enhance my skillset and take on greater development challenges. From front-end user interface design to back-end server-side logic and database management, I'm capable of handling all aspects of the development process. My deep understanding of cyber security best practices and my commitment to ensuring that the applications I build are secure and protected against potential threats sets me apart. Whether I'm working on a large-scale project for a corporate client or a small-scale project for a startup, I am dedicated to delivering high-quality, secure solutions.
           </p>
@@ -27,12 +27,12 @@ const About = () => {
             <h5
               class="text font-semibold text-gray-900 dark:text-gray-300 mb-4 font-sans"
             >
-              For business inquiries feel free to get in touch with me at :
+              For any business-related queries, feel free to reach out to me at :
             </h5>
             <ul class="mb-6 flex flex-col sm:text-left space-y-2">
               <li>
-                <span class="text-gray-600 dark:text-blue-700">
-                📧 tebbaa.adnane.dev@gmail.com
+                <span class="text-gray-600 dark:text-blue-700 font-sans">
+                ✔️ tebbaa.adnane.dev@gmail.com
                 </span>
               </li>
               <li>
@@ -59,7 +59,7 @@ const About = () => {
             <h5
               class="text font-semibold text-gray-900 dark:text-gray-300 mb-6 font-sans"
             >
-              Or somewhere else on the web:
+              Or you can find me elsewhere :
             </h5>
             <span class="flex space-x-6">
               <a
