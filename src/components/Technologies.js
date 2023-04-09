@@ -12,9 +12,9 @@ render(){
 
 
 
-<div class="bg-gray-50 pt-[1px] shadow-inner">
+<div class="bg-gray-50 pt-[1px] shadow-inner ">
   
-<section class="px-4 py-12 mx-auto max-w-7xl text-gray-600 border-b dark:border-gray-700 bg-gray-50 dark:bg-dark">
+<section class="px-4 py-12 mx-auto max-w-7xl text-gray-600 border-b dark:border-gray-700 bg-gray-50 dark:bg-dark pt-5">
 <div class="md:items-start items-center flex w-full mb-4 flex-col ">
   <h1 class="text-4xl font-medium leading-none title-font dark:text-gray-200 text-gray-900 font-sans">
         Tech Stack & Skills : 

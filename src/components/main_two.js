@@ -9,7 +9,7 @@ export default class Maintwo extends React.Component {
 
 render() {
     return(
-        <div>
+        <div className="">
 
 <div class= "pt-[1px] bg-white dark:bg-gray-900 ">
 <section class="px-4 py-12 mx-auto max-w-7xl">
