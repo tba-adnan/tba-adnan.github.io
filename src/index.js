@@ -15,6 +15,7 @@ import Layout from './pages/Layout';
 import Notfound from './pages/Notfound'
 import Home from './pages/Home';
 import About from './pages/About';
+import Newsletter from './pages/News-letter';
 
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
           {/* <Route path="blogs" element={<Home />} /> */}
           <Route path="about" element={< About/>} />
             <Route path="error" element={<Notfound />} />
+            <Route path="news-letter" element={<Newsletter />} />
           </Route>
         </Routes>
       </BrowserRouter>

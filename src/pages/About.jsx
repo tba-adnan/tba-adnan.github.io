@@ -19,7 +19,8 @@ const About = () => {
       <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween font-sans">
         <div class="flex-1">
           <p class="leading-7 font-sans">
-          I'm Adnane Tebbaa, 20 years old, Full Stack Web Developer and Android Developer with experience in Python, Javascript, PHP and Kotlin and a strong Background in Cyber Security.
+          My name is Adnane Tebbaa, and I am a Full Stack Web Developer and Android Developer with expertise in Python, Javascript, PHP, and Kotlin. I also have a strong background in Cyber Security. at 20 years old, I bring both youthful enthusiasm and a wealth of technical knowledge to any project I work on.
+            <br></br>
             <br class="block mt-2.5" />
             As a full-stack developer with a strong background in cyber security, I have a unique combination of technical and security expertise that enables me to develop highly robust and secure applications. I'm always exploring new technologies and programming languages to enhance my skillset and take on greater development challenges. From front-end user interface design to back-end server-side logic and database management, I'm capable of handling all aspects of the development process. My deep understanding of cyber security best practices and my commitment to ensuring that the applications I build are secure and protected against potential threats sets me apart. Whether I'm working on a large-scale project for a corporate client or a small-scale project for a startup, I am dedicated to delivering high-quality, secure solutions.
           </p>
