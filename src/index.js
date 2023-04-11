@@ -13,19 +13,18 @@ import About from './pages/About';
 import Newsletter from './pages/News-letter';
 
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter basename="/">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          {/* <Route path="blogs" element={<Home />} /> */}
-          <Route path="about" element={< About/>} />
-          <Route path="error" element={<Notfound />} />
+    <HashRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
           <Route path="news-letter" element={<Newsletter />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+          <Route path="*" element={<Notfound />} />
+        </Routes>
+      </Layout>
+    </HashRouter>
   );
 }
   
