@@ -15,7 +15,7 @@ import Newsletter from './pages/News-letter';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/tba-adnan.github.io">
+    <BrowserRouter basename="">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -30,4 +30,6 @@ export default function App() {
   
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
+
 reportWebVitals();
