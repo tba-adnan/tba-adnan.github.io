@@ -15,12 +15,12 @@ import Newsletter from './pages/News-letter';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/tba-adnan.github.io">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="news-letter" element={<Newsletter />} />
+          <Route path="news-lette" element={<Newsletter />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
       </Layout>
