@@ -2,7 +2,7 @@
   "name": "my-p0tfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tba-adnan.github.io",
+  "homepage": "https://tba-adnan.github.io/tba-adnan.github.io",
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.12",
     "@testing-library/jest-dom": "^5.16.5",
