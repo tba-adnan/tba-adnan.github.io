@@ -13,18 +13,18 @@ import About from './pages/About';
 import Newsletter from './pages/News-letter';
 
 
-function App() {
+export default function App() {
   return (
-    <HashRouter basename="/tba-adnan.github.io">
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="news-lette" element={<Newsletter />} />
-          <Route path="*" element={<Notfound />} />
-        </Routes>
-      </Layout>
-    </HashRouter>
+    <BrowserRouter basename="/tba-adnan.github.io">
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={< About/>} />
+          <Route path="error" element={<Notfound />} />
+          <Route path="news-letter" element={<Newsletter />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
   
