@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tba-adnan.github.io/static/css/main.cc5aa6a1.css",
-    "main.js": "/tba-adnan.github.io/static/js/main.830889b2.js",
-    "static/js/787.e41c59cf.chunk.js": "/tba-adnan.github.io/static/js/787.e41c59cf.chunk.js",
-    "index.html": "/tba-adnan.github.io/index.html",
-    "main.cc5aa6a1.css.map": "/tba-adnan.github.io/static/css/main.cc5aa6a1.css.map",
-    "main.830889b2.js.map": "/tba-adnan.github.io/static/js/main.830889b2.js.map",
-    "787.e41c59cf.chunk.js.map": "/tba-adnan.github.io/static/js/787.e41c59cf.chunk.js.map"
+    "main.css": "/static/css/main.cc5aa6a1.css",
+    "main.js": "/static/js/main.000f1df1.js",
+    "static/js/787.e41c59cf.chunk.js": "/static/js/787.e41c59cf.chunk.js",
+    "index.html": "/index.html",
+    "main.cc5aa6a1.css.map": "/static/css/main.cc5aa6a1.css.map",
+    "main.000f1df1.js.map": "/static/js/main.000f1df1.js.map",
+    "787.e41c59cf.chunk.js.map": "/static/js/787.e41c59cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5aa6a1.css",
-    "static/js/main.830889b2.js"
+    "static/js/main.000f1df1.js"
   ]
 }
