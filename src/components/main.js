@@ -14,8 +14,8 @@ render() {
 <section class="bg-white dark:bg-gray-900 pb-2">
     <div class="grid max-w-screen-xl px-4 py-12 pb-2 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-1xl mb-4 text-3xl font-sans tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">👋 Hi, i'm Adnane! </h1>
-            <p class="max-w-2xl mb-7 font-light text-gray-500 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400 font-sans ">
+            <h1 class="max-w-1xl mb-4 text-3xl sans-serif tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">👋 Hi, i'm Adnane! </h1>
+            <p class="max-w-2xl mb-7 font-light text-gray-500 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400 sans-serif">
             Full-stack Web & Mobile developer with a background in Cyber Security, specializing in building secure applications with a range of tech and programming languages. Experienced in user interface, server-side logic, and database management.
             With a deep understanding of cybersecurity best practices. 
             delivering high-quality and secure solutions for clients.</p>
