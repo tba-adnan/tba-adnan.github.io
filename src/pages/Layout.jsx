@@ -8,7 +8,7 @@ return (
     <div
       className="container max-w-screen-lg mx-auto flex flex-wrap py-4 md:py-5 lg:py-5 flex-col md:flex-row items-center md:px-5 text-gray-600 dark:text-gray-200">
       <Link to="/" className="text-gray-900 flex title-font font-medium items-center cursor-pointer mb-2 md:mb-0">
-      <span className="text-xl hover:text-blue-900 font-sans text-4xl ">Adnane Tebbaa</span>
+      <span className=" hover:text-blue-900 sans-serif text-4xl ">Adnane Tebbaa</span>
       </Link>
       <div className="text-lg ">
         <nav
@@ -18,7 +18,7 @@ return (
             class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-blue-700 inline-block shadow-md">
             <span
               class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-blue-700 group-hover:h-full opacity-90"></span>
-            <span class="relative group-hover:text-white">About</span>
+            <span class="relative group-hover:text-white sans-serif">About</span>
           </a>
          </div>
 
