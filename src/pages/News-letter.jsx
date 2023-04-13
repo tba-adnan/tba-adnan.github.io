@@ -8,9 +8,9 @@ function Newsletter() {
 
 <div className='pb-0 pt-9 '>
 <div className="flex justify-center items-center h-screen bg-blue-500">
-  <div className="max-w-none w-[650px] w-full mx-2">
+  <div className="max-w-none w-[650px]  mx-2">
     <iframe
-      className="shadow-lg shadow-inner rounded-2xl"
+      className="shadow-lg  rounded-2xl"
       src="https://tebbaa.substack.com/embed"
       width="99%"
       height="320"
