@@ -8,7 +8,7 @@ return (
     <div
       className="container max-w-screen-lg mx-auto flex flex-wrap py-4 md:py-5 lg:py-5 flex-col md:flex-row items-center md:px-5 text-gray-600 dark:text-gray-200">
       <Link to="/" className="text-gray-900 flex title-font font-medium items-center cursor-pointer mb-2 md:mb-0">
-      <span className=" hover:text-blue-900 sans-serif text-4xl ">Adnane Tebbaa</span>
+      <span className=" hover:text-blue-900 nunito text-4xl ">Adnane Tebbaa</span>
       </Link>
       <div className="text-lg ">
         <nav
