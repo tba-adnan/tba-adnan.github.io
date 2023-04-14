@@ -40,3 +40,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+.font-face-nuni {
+  font-family: "nunisemibold";
+ }
+ 

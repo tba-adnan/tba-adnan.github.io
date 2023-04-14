@@ -11,6 +11,15 @@ body {
 }
 
 
+@font-face {
+  font-family: "nuni";
+  src: local("nunisemibold"),
+   url("./fonts/nunisemibold.ttf") format("truetype");
+  font-weight: bold;
+  }
+  
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

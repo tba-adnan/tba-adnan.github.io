@@ -18,7 +18,7 @@ const About = () => {
 
       <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween font-sans">
         <div class="flex-1">
-          <p class="leading-7 font-sans">
+          <p class="leading-7 font-sans font-face-nuni">
           My name is Adnane Tebbaa, and I am a Full Stack Web Developer and Android Developer with expertise in Python, Javascript, PHP, and Kotlin. I also have a strong background in Cyber Security. at 20 years old, I bring both youthful enthusiasm and a wealth of technical knowledge to any project I work on.
             <br></br>
             <br class="block mt-2.5" />

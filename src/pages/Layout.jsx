@@ -1,14 +1,15 @@
 import { Outlet, Link } from "react-router-dom";
 
+
 const Layout = () => {
 return (
 <>
 
-  <header className="w-full bg-white border-t-4 border-blue-700 fixed z-50 shadow font-sans">
+  <header className="w-full bg-white border-t-4 border-blue-700 fixed z-50 shadow font-sans nunito">
     <div
       className="container max-w-screen-lg mx-auto flex flex-wrap py-4 md:py-5 lg:py-5 flex-col md:flex-row items-center md:px-5 text-gray-600 dark:text-gray-200">
       <Link to="/" className="text-gray-900 flex title-font font-medium items-center cursor-pointer mb-2 md:mb-0">
-      <span className=" hover:text-blue-900 nuniton text-4xl ">Adnane Tebbaa</span>
+      <span className=" hover:text-blue-900 text-4xl font-face-nuni">Adnane Tebbaa</span>
       </Link>
       <div className="text-lg ">
         <nav
