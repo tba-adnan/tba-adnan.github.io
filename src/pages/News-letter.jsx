@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from '../components/footer';
-import YouTubePlayer from '../components/ytplayer';
 
 function Newsletter() {
   return (
